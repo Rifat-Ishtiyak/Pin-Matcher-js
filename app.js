@@ -39,6 +39,8 @@ document.getElementById('cal-body').addEventListener('click', function(event){
             const typedValue = parseInt(typedValueField.value);
 
             if (countTry<=0) {
+                document.getElementById('submit').disabled = true;
+                document.getElementById('submit').style.backgroundColor= 'grey'
                 alert('maximum try reached');
             }
             else{
@@ -55,7 +57,6 @@ document.getElementById('cal-body').addEventListener('click', function(event){
                     document.getElementById('try-left').innerText = countTry;
                 }
             }
-            
         }
     }
     else{
