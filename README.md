@@ -1,6 +1,6 @@
 # Pin-Matcher-js  
   
-  Live Demo 👉 https://rifat-ishtiyak.github.io/Pin-Matcher-js/  
+  Live Demo 👉 https://ishtiyak98.github.io/Pin-Matcher-js 
   
  <hr>
   
